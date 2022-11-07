@@ -1,5 +1,6 @@
 import React from 'react'
 import Swal from 'sweetalert2'
+import '../App.css'
 import {useFormulario} from '../hooks/useFormulario'
 
 const Formulario = ({setNombrePersonaje}) => {
@@ -42,6 +43,7 @@ const Formulario = ({setNombrePersonaje}) => {
         >Buscar</button>
       </form>
       <hr className='line' />
+      <h3 className='titulo-personaje'>PERSONAJES</h3>
     </>
   )
 }
